@@ -1,0 +1,182 @@
+/* work mulish font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,200;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+
+/* HEADER LOGO*/
+
+#logo-pic {
+    width: 48px;
+height: 56.008px;
+}
+nav{
+    align-items: center;
+    display:flex;
+    padding:50px 130px;
+}
+.text-color-black{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+h3{
+  padding-left: 16px;
+}
+
+.Vault{
+color: #FF5400;
+font-size: 2.25rem;
+font-weight: 800;
+}
+
+.banner{
+    justify-items: center;
+    margin:auto ;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.banner-content{
+text-align: center;
+}
+
+.banner-title{
+    padding-top:106px;
+    width: 100%;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description{
+    margin: 20px 247px;
+    width: 60%;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-area{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 750px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+input{
+
+    margin-top: 20px;
+    border:none;
+    padding: 16px 5px;
+    border-radius: 8px;
+    gap: 24px;
+ }
+
+ #find{
+    background-color: #FF5400;
+    color: #FFF;
+ }
+
+ /* main section*/
+
+.tour-container{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: left;
+ } 
+ 
+ .tour-content{
+    text-align: left;
+    padding-top: 50px;
+    padding-right: 100px;
+    
+ }
+
+ .tour-title{
+color: #131318;
+font-size:2.8rem;
+font-weight: 800;
+ }
+
+.tour-pic{
+   padding-top: 100px;
+   border-radius: 16px;
+}
+
+.tour-description, ul>li, .tour-conclusion{
+
+   color: rgba(19, 19, 24, 0.70);
+   font-size: 16px;
+   font-weight: 400;
+   max-width: 500px;
+
+}
+
+ul li{
+
+    padding-top:16px;
+
+}
+
+.tour-conclusion{
+   padding-top:20px;
+
+}
+
+.btn-primary{
+    margin-top: 30px;
+    padding: 14px 35px;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    font-size: 1.2rempx;
+    font-weight: 800;
+}
+
+ /* responsive code*/
+
+@media screen and (max-width:576px) {
+ 
+    }
+ .tour-container {
+        flex-direction: column;
+    }
+
+    nav{
+
+  padding:5px 5px;
+
+    }
+
+    .tour-content{
+        padding: 10px 10px;
+
+    }
+    .tour-pic{
+        padding-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+ 
+
+
