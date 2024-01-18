@@ -416,7 +416,7 @@ height: 502px;
 @media screen and (max-width:576px) {
  
     
- .tour-container, .row, .newsletter {
+ .tour-container, .row, .newsletter, .cards-container {
         flex-direction: column;
     }
 
@@ -437,6 +437,7 @@ height: 502px;
         margin-left: 65px;
 
     }
+    
 
     .banner{
         width: auto;
@@ -467,6 +468,15 @@ height: 502px;
         width: 100%;
         height: auto;
     }
+
+    .form-box input, .form, {
+        width: 70%;
+    }
+    .form-content, .cards-container{
+        width: auto;
+    }
+
+
     .footer-logo{
         padding: 20px 20px;
     }
